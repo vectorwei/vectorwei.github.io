@@ -1,0 +1,158 @@
+---
+layout: home
+author_profile: true
+---
+
+<div class="feature__wrapper">
+  <a href="/about/" class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          About Me
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Hi, I am <strong>Jiawei Xiong</strong>, a master's student at <strong>the University of Chicago</strong>, majoring in <strong>Applied Data Science</strong>. I am passionate about data-driven decision making, machine learning, and LLM applications.</p>
+
+          <p>Welcome to my site! Here, I will share my recent thoughts and some interesting projects I've been working on.</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="/posts/">Recent Posts</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          {% if paginator %}
+            {% assign posts = paginator.posts %}
+          {% else %}
+            {% assign posts = site.posts %}
+          {% endif %}
+          {% assign entries_layout = page.entries_layout | default: 'list' %}
+          <div class="entries-{{ entries_layout }}">
+            {% include documents-collection.html entries=posts type=entries_layout %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="/cv/" class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          CV
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>View my detailed curriculum vitae and professional experience.</p>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<style>
+.feature__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature__item {
+  padding: 1.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.feature__item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-color: #007bff;
+}
+
+/* 主标题样式 */
+.feature__item > .archive__item > .archive__item-body > .archive__item-title {
+  margin: 0;
+  font-size: 1.1rem !important;
+  color: #3a8ba1;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.archive__item-title a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+.archive__item-title a:hover {
+  color: #c13e93;
+}
+
+/* 描述文字样式 */
+.archive__item-excerpt {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 0.81rem;  /* 改小描述文字大小 */
+  line-height: 1.6;
+}
+
+/* 为 Recent Posts 部分添加特殊样式 */
+.feature__item:nth-child(2) .archive__item-excerpt {
+  margin-top: 1.5rem;
+}
+
+.feature__item:nth-child(2) .archive__item {
+  margin-bottom: 0;
+}
+
+.feature__item:nth-child(2) .archive__item-title {
+  margin-bottom: 1rem;
+}
+
+/* 文章列表中的标题样式 */
+.feature__item:nth-child(2) .archive__item-excerpt .entries-list .archive__item-title {
+  font-size: 0.85rem !important;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.feature__item:nth-child(2) .archive__item-excerpt .entries-list .archive__item-title a {
+  color: #666;
+}
+
+.feature__item:nth-child(2) .archive__item-excerpt .entries-list .archive__item-title a:hover {
+  color: #c13e93;
+}
+
+@media (max-width: 768px) {
+  .feature__wrapper {
+    margin: 1rem;
+    gap: 1rem;
+  }
+  
+  .feature__item {
+    padding: 1rem;
+  }
+  
+  .archive__item-title {
+    font-size: 2rem !important;
+  }
+}
+</style>
