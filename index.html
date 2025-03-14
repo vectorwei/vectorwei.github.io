@@ -4,14 +4,14 @@ author_profile: true
 ---
 
 <div class="feature__wrapper">
-  <a href="/about/" class="feature__item">
+  <a href="/about/" class="feature__item about-bg">
     <div class="archive__item">
       <div class="archive__item-body">
         <h2 class="archive__item-title">
           About Me
         </h2>
         <div class="archive__item-excerpt">
-          <p>Hi, I am <strong>Jiawei Xiong</strong>, a master's student at <strong>the University of Chicago</strong>, majoring in <strong>Applied Data Science</strong>. I am passionate about data-driven decision making, machine learning, and LLM applications.</p>
+          <p>Hi, I am <strong>Jiawei Xiong(Gavi)</strong>, a master's student at <strong>the University of Chicago</strong>, majoring in <strong>Applied Data Science</strong>. I am passionate about data-driven decision making, machine learning, and LLM applications.</p>
 
           <p>Welcome to my site! Here, I will share my recent thoughts and some interesting projects I've been working on.</p>
         </div>
@@ -19,7 +19,7 @@ author_profile: true
     </div>
   </a>
 
-  <div class="feature__item">
+  <div class="feature__item posts-bg">
     <div class="archive__item">
       <div class="archive__item-body">
         <h2 class="archive__item-title">
@@ -40,7 +40,7 @@ author_profile: true
     </div>
   </div>
 
-  <a href="/cv/" class="feature__item">
+  <a href="/cv/" class="feature__item cv-bg">
     <div class="archive__item">
       <div class="archive__item-body">
         <h2 class="archive__item-title">
@@ -48,6 +48,19 @@ author_profile: true
         </h2>
         <div class="archive__item-excerpt">
           <p>View my detailed curriculum vitae and professional experience.</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/photos/" class="feature__item photos-bg">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          Photo Gallery
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Explore my collection of photos from various categories and experiences.</p>
         </div>
       </div>
     </div>
@@ -70,17 +83,59 @@ author_profile: true
   border: 1px solid #e9ecef;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
   text-decoration: none;
   display: block;
   color: inherit;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.feature__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.feature__item:hover::before {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.feature__item .archive__item {
+  position: relative;
+  z-index: 2;
 }
 
 .feature__item:hover {
   transform: translateX(10px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   border-color: #007bff;
+}
+
+/* 设置各个板块的背景图片 */
+.about-bg {
+  background-image: url('/assets/images/homepage/about.jpg');
+}
+
+.posts-bg {
+  background-image: url('/assets/images/homepage/post.jpg');
+}
+
+.cv-bg {
+  background-image: url('/assets/images/homepage/cv.jpg');
+}
+
+.photos-bg {
+  background-image: url('/assets/images/homepage/photos.jpg');
 }
 
 /* 主标题样式 */
@@ -91,6 +146,7 @@ author_profile: true
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 
 .archive__item-title a {
@@ -105,10 +161,11 @@ author_profile: true
 
 /* 描述文字样式 */
 .archive__item-excerpt {
-  color: #666;
+  color: #333;
   margin-top: 1.5rem;
   font-size: 0.81rem;  /* 改小描述文字大小 */
   line-height: 1.6;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.8);
 }
 
 /* 为 Recent Posts 部分添加特殊样式 */
@@ -127,14 +184,14 @@ author_profile: true
 /* 文章列表中的标题样式 */
 .feature__item:nth-child(2) .archive__item-excerpt .entries-list .archive__item-title {
   font-size: 0.85rem !important;
-  color: #666;
+  color: #444;
   font-weight: 500;
   margin-bottom: 0.5rem;
   line-height: 1.4;
 }
 
 .feature__item:nth-child(2) .archive__item-excerpt .entries-list .archive__item-title a {
-  color: #666;
+  color: #444;
 }
 
 .feature__item:nth-child(2) .archive__item-excerpt .entries-list .archive__item-title a:hover {

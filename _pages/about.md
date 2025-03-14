@@ -24,20 +24,21 @@ For a formal CV, please visit my [CV page](/cv/).
 
 
 ### Skills
-- Programming Languages: Python, JavaScript, etc.
-- Tools & Technologies: Git, Docker, etc.
-- Other Skills: Research, Writing, etc.
+
 
 ### Hobbies
 - Badminton (3.5 Level, Intermediate-Advanced)
-- Travel
+- Travel (sea and forest are my best)
 - Working out 
+- Mountian climbing 
 - Games
-    - Wild Rift(LOLm, Diamond + )
-    - Brawl Stars(Legend + )
-    - LOL (ARAM-only)
+    - Wild Rift(LOLm, Diamond +)
+    - Brawl Stars(Legend +)
+    - LOL (ARAM-only🤣)
     - Hollow Knight
-    - recent playing: Split Fiction
+    - Recent Playing: Split Fiction
+- table tennis(beginner)
+- tennis(beginner)
 
 
 ### Contact

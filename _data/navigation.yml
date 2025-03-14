@@ -6,5 +6,7 @@ main:
     url: /about/
   - title: "Blog"
     url: /posts/
+  - title: "Photos"
+    url: /photos/
   - title: "CV"
     url: /cv/
