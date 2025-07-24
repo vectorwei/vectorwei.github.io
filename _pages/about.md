@@ -42,4 +42,4 @@ For a formal CV, please visit my [CV page](/cv/).
 
 
 ### Contact
-Feel free to reach out to me at [Jiaweix1@uchicago.edu](Jiaweix1@uchicago.edu) or connect with me on [LinkedIn](www.linkedin.com/in/jiawei-xiong-407a08314). 
+Feel free to reach out to me at [Jiaweix1@uchicago.edu](Jiaweix1@uchicago.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/jiawei-xiong-407a08314/). 

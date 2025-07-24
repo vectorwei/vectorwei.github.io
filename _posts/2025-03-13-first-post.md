@@ -1,15 +1,13 @@
 ---
 layout: single
-title: "My First Post"
+title: "My First Post at This Site"
 date: 2025-03-13
 categories:
   - blog
 tags:
   - job
   - future
-header:
-  image: /assets/images/header-image.jpg
-  teaser: /assets/images/teaser-image.jpg
+
 ---
 
 This is my first post, I want to talk about why I want to "waste" some time to build this site. It may not looked so fancy, but anyway: **Welcome to my site!**

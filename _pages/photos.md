@@ -10,18 +10,18 @@ header:
 excerpt: "A collection of photographs from my adventures"
 
 feature_row:
-  - image_path: /assets/images/grad_photos/DSC_0509.jpg
+  - image_path: /assets/images/gallary/grad_photos/013.jpg
     alt: "SUSTech graduation photography"
     title: "SUSTech Graduation"
-    excerpt: "Memories from my graduation at SUSTech"
+    excerpt: "Memories from my graduation at SUSTech-2024.6.24"
     url: "/photos/graduation/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
-  - image_path: /assets/images/background.jpg
+  - image_path: assets/images/gallary/moutainhuang/019.jpg
     alt: "Travel photography"
-    title: "Travel"
-    excerpt: "Memories from various places I've visited around the world."
-    url: "#"
+    title: "黄山"
+    excerpt: "没有看到日出的黄山游记2025.7.19"
+    url: "/photos/huangshan/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
   - image_path: /assets/images/background.jpg

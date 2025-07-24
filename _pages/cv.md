@@ -5,6 +5,9 @@ permalink: /cv/
 author_profile: true
 ---
 
+<a href="/assets/images/resume_en.jpg" class="btn btn--primary" target="_blank" rel="noopener noreferrer">English Resume</a>
+<a href="/assets/images/resume_cn.jpg" class="btn btn--info" target="_blank" rel="noopener noreferrer">中文简历</a>
+
 # Jiawei Xiong  
 📍 151 Michigan Ave, Chicago, IL 60601  
 📧 [jiaweix1@uchicago.edu](mailto:jiaweix1@uchicago.edu)  

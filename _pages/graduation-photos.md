@@ -6,171 +6,155 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/grad_photos/DSC_0453.jpg
+  overlay_image: /assets/images/gallary/grad_photos/013.jpg
   caption: "SUSTech Graduation"
 
 # 照片画廊 - 使用grad_photos目录中的照片
 gallery:
-  - url: /assets/images/grad_photos/DSC_0242.jpg
-    image_path: /assets/images/grad_photos/DSC_0242.jpg
+  - url: /assets/images/gallary/grad_photos/01.jpg
+    image_path: /assets/images/gallary/grad_photos/01.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/IMG_8670.jpg
-    image_path: /assets/images/grad_photos/IMG_8670.jpg
+  - url: /assets/images/gallary/grad_photos/02.jpg
+    image_path: /assets/images/gallary/grad_photos/02.jpg
     alt: "SUSTech Graduation"  
-  - url: /assets/images/grad_photos/DSC_0271.jpg
-    image_path: /assets/images/grad_photos/DSC_0271.jpg
+  - url: /assets/images/gallary/grad_photos/03.jpg
+    image_path: /assets/images/gallary/grad_photos/03.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/WechatIMG8.jpg
-    image_path: /assets/images/grad_photos/WechatIMG8.jpg
+  - url: /assets/images/gallary/grad_photos/04.jpg
+    image_path: /assets/images/gallary/grad_photos/04.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/DSC_0324.jpg
-    image_path: /assets/images/grad_photos/DSC_0324.jpg
+  - url: /assets/images/gallary/grad_photos/05.jpeg
+    image_path: /assets/images/gallary/grad_photos/05.jpeg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/13f8c52d92bb03a5f15bd151d103a7c7.jpg
-    image_path: /assets/images/grad_photos/13f8c52d92bb03a5f15bd151d103a7c7.jpg
+  - url: /assets/images/gallary/grad_photos/06.jpg
+    image_path: /assets/images/gallary/grad_photos/06.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/DSC_0353.jpg
-    image_path: /assets/images/grad_photos/DSC_0353.jpg
+  - url: /assets/images/gallary/grad_photos/07.jpg
+    image_path: /assets/images/gallary/grad_photos/07.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/WechatIMG10.jpg
-    image_path: /assets/images/grad_photos/WechatIMG10.jpg
+  - url: /assets/images/gallary/grad_photos/08.jpg
+    image_path: /assets/images/gallary/grad_photos/08.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/DSC_0453.jpg
-    image_path: /assets/images/grad_photos/DSC_0453.jpg
+  - url: /assets/images/gallary/grad_photos/09.jpg
+    image_path: /assets/images/gallary/grad_photos/09.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/4ae5c1d609dbeef43f98f1883bcde85c.jpg
-    image_path: /assets/images/grad_photos/4ae5c1d609dbeef43f98f1883bcde85c.jpg
+  - url: /assets/images/gallary/grad_photos/010.jpg
+    image_path: /assets/images/gallary/grad_photos/010.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/DSC_0509.jpg
-    image_path: /assets/images/grad_photos/DSC_0509.jpg
+  - url: /assets/images/gallary/grad_photos/011.jpg
+    image_path: /assets/images/gallary/grad_photos/011.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/IMG_8510.jpg
-    image_path: /assets/images/grad_photos/IMG_8510.jpg
+  - url: /assets/images/gallary/grad_photos/012.jpg
+    image_path: /assets/images/gallary/grad_photos/012.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/DSC_0945.jpg
-    image_path: /assets/images/grad_photos/DSC_0945.jpg
+  - url: /assets/images/gallary/grad_photos/013.jpg
+    image_path: /assets/images/gallary/grad_photos/013.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/39eedd67e827de47e59868d440edd580.jpg
-    image_path: /assets/images/grad_photos/39eedd67e827de47e59868d440edd580.jpg
+  - url: /assets/images/gallary/grad_photos/014.jpg
+    image_path: /assets/images/gallary/grad_photos/014.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/DSC_1324.jpg
-    image_path: /assets/images/grad_photos/DSC_1324.jpg
+  - url: /assets/images/gallary/grad_photos/015.jpg
+    image_path: /assets/images/gallary/grad_photos/015.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/9507b01661d90dbbc53eb103216917a6.jpg
-    image_path: /assets/images/grad_photos/9507b01661d90dbbc53eb103216917a6.jpg
+  - url: /assets/images/gallary/grad_photos/016.jpg
+    image_path: /assets/images/gallary/grad_photos/016.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/IMG_8638.jpg
-    image_path: /assets/images/grad_photos/IMG_8638.jpg
+  - url: /assets/images/gallary/grad_photos/017.jpg
+    image_path: /assets/images/gallary/grad_photos/017.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/2c62156e325fe13d5318aa9f79af55f8.jpg
-    image_path: /assets/images/grad_photos/2c62156e325fe13d5318aa9f79af55f8.jpg
+  - url: /assets/images/gallary/grad_photos/018.jpg
+    image_path: /assets/images/gallary/grad_photos/018.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/IMG_8702.jpg
-    image_path: /assets/images/grad_photos/IMG_8702.jpg
+  - url: /assets/images/gallary/grad_photos/019.jpg
+    image_path: /assets/images/gallary/grad_photos/019.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/096b55933d1e039b296f93b9af289edf.jpg
-    image_path: /assets/images/grad_photos/096b55933d1e039b296f93b9af289edf.jpg
+  - url: /assets/images/gallary/grad_photos/020.jpg
+    image_path: /assets/images/gallary/grad_photos/020.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/IMG_8758.jpg
-    image_path: /assets/images/grad_photos/IMG_8758.jpg
+  - url: /assets/images/gallary/grad_photos/021.jpg
+    image_path: /assets/images/gallary/grad_photos/021.jpg
     alt: "SUSTech Graduation"
-  - url: /assets/images/grad_photos/57D1699E-03BF-4E77-B4D1-FB3ACA310FD8_4_5005_c.jpeg
-    image_path: /assets/images/grad_photos/57D1699E-03BF-4E77-B4D1-FB3ACA310FD8_4_5005_c.jpeg
+  - url: /assets/images/gallary/grad_photos/022.jpg
+    image_path: /assets/images/gallary/grad_photos/022.jpg
     alt: "SUSTech Graduation"
 ---
 
-{% include gallery layout="third" %}
+{% include gallery %}
 
 <style>
-/* 基本图片样式 */
-.gallery {
-  display: grid;
-  margin-bottom: 2rem !important;
+/* Masonry grid styles */
+.gallery-grid {
+  margin: 0 auto;
 }
 
-.gallery.layout--third {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+/* Clearfix for the container */
+.gallery-grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-.gallery figure {
-  margin: 0;
-  position: relative;
-  overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
 }
 
-/* 设置图片高度，同时保持比例 */
-.gallery img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  transition: all 0.3s ease;
-  vertical-align: middle;
-  /* 添加延迟加载提示 */
-  opacity: 0;
-  animation: fadeIn 0.5s ease-in forwards;
-}
-
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-
-/* 延迟加载不同行的图片 */
-.gallery figure:nth-child(3n+1) img {
-  animation-delay: 0.1s;
-}
-.gallery figure:nth-child(3n+2) img {
-  animation-delay: 0.2s;
-}
-.gallery figure:nth-child(3n+3) img {
-  animation-delay: 0.3s;
-}
-
-/* 悬停效果 - 只保留图片缩放效果 */
-.gallery a:hover img {
-  opacity: 0.95;
-  transform: scale(1.03);
-}
-
-/* 隐藏所有标题/文字 */
-.gallery figcaption {
-  display: none;
-}
-
-/* 隐藏画廊标题和说明文字 */
-.gallery-caption {
-  display: none;
-}
-
-/* 响应式布局 */
 @media (max-width: 768px) {
-  .gallery.layout--third {
-    grid-template-columns: repeat(2, 1fr);
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
   }
 }
 
 @media (max-width: 480px) {
-  .gallery.layout--third {
-    grid-template-columns: 1fr;
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
   }
-  
-  .gallery img {
-    height: auto;
-  }
+}
+
+.grid-item {
+  float: left;
+  padding: 5px;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.grid-item a:hover img {
+  opacity: 0.9;
+  transform: scale(1.03);
 }
 </style>
 
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
 <script>
-// 图片加载失败时的处理
 document.addEventListener('DOMContentLoaded', function() {
-  const images = document.querySelectorAll('.gallery img');
+  var grid = document.querySelector('.gallery-grid');
+  
+  imagesLoaded( grid, function() {
+    // init Masonry after all images have loaded
+    var msnry = new Masonry( grid, {
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true,
+      gutter: 0
+    });
+  });
+
+  // Fallback for image errors
+  const images = document.querySelectorAll('.grid-item img');
   images.forEach(img => {
     img.onerror = function() {
-      // 图片加载失败时，显示占位符
-      this.src = '/assets/images/bio-photo.jpg';
+      this.src = '/assets/images/bio-photo.jpg'; // Fallback image
+      this.closest('.grid-item').style.display = 'none'; // Optionally hide broken items
     };
   });
 });

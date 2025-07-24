@@ -1,0 +1,46 @@
+<!-- 语言切换按钮 - 可以添加到网站的导航栏或页脚 -->
+<div class="language-switcher">
+  <span data-i18n="language">Language</span>:
+  <button id="lang-en" class="lang-btn lang-active" onclick="switchLanguage('en')">EN</button> |
+  <button id="lang-zh" class="lang-btn" onclick="switchLanguage('zh')">中</button>
+</div>
+
+<!-- 语言切换按钮的CSS样式 -->
+<style>
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+  font-size: 14px;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  opacity: 1;
+}
+
+.lang-btn.lang-active {
+  font-weight: bold;
+  opacity: 1;
+  border-bottom: 2px solid currentColor;
+}
+</style>
+
+<!-- 
+  使用说明: 
+  
+  1. 将这个HTML片段添加到网站的导航栏或页脚
+  2. 在网站页面的<head>标签中添加：<script src="/assets/js/i18n.js"></script>
+  3. 为需要翻译的文本元素添加data-i18n属性，例如：<a href="/" data-i18n="nav-home">Home</a>
+  
+  注意：确保JavaScript文件i18n.js已经被正确引用
+--> 

@@ -26,14 +26,12 @@ author_profile: true
           <a href="/posts/">Recent Posts</a>
         </h2>
         <div class="archive__item-excerpt">
-          {% if paginator %}
-            {% assign posts = paginator.posts %}
-          {% else %}
-            {% assign posts = site.posts %}
-          {% endif %}
           {% assign entries_layout = page.entries_layout | default: 'list' %}
           <div class="entries-{{ entries_layout }}">
-            {% include documents-collection.html entries=posts type=entries_layout %}
+            {% assign posts = site.posts | where_exp: "post", "post.hidden != true" %}
+            {% for post in posts limit: 2 %}
+              {% include archive-single.html type=entries_layout %}
+            {% endfor %}
           </div>
         </div>
       </div>
