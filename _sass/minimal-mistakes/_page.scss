@@ -28,20 +28,6 @@ body {
           flex-direction: column;
   position: relative;
   
-  &::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('/assets/images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.25;  /* 稍微增加透明度，使图片更加可见 */
-    z-index: -1;
-  }
 }
 
 .initial-content,

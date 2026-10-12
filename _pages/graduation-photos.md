@@ -4,10 +4,8 @@ title: "SUSTech Graduation Photos"
 permalink: /photos/graduation/
 author_profile: true
 header:
-  overlay_color: "#000"
+  overlay_color: "#333"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/gallary/grad_photos/013.jpg
-  caption: "SUSTech Graduation"
 
 # 照片画廊 - 使用grad_photos目录中的照片
 gallery:

@@ -4,9 +4,8 @@ title: "Photo Gallery"
 permalink: /photos/
 author_profile: true
 header:
-  overlay_color: "#000"
+  overlay_color: "#333"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/background.jpg
 excerpt: "A collection of photographs from my adventures"
 
 feature_row:
@@ -25,6 +24,13 @@ feature_row:
     btn_label: "View Gallery"
     btn_class: "btn--primary"
   - image_path: /assets/images/background.jpg
+    alt: "Colorado photography"
+    title: "Colorado"
+    excerpt: "Colorado adventures and landscapes"
+    url: "/photos/colorado/"
+    btn_label: "View Gallery"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/background.jpg
     alt: "Urban photography"
     title: "Urban"
     excerpt: "City scenes, architecture, and street photography."
@@ -36,6 +42,13 @@ feature_row:
     title: "People"
     excerpt: "Portraits and candid shots of people and events."
     url: "#"
+    btn_label: "View Gallery"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/background.jpg
+    alt: "NY photography"
+    title: "NYC"
+    excerpt: "NYC adventures"
+    url: "/photos/NY/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
 ---

@@ -1,42 +1,39 @@
-# Vim
-*~
-*.sw[p_]
-
-# IntelliJ IDEA
-*.idea
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Ruby Gem
-*.gem
-.bundle
-Gemfile.lock
-**/vendor/bundle
-
-# Node.js and NPM
-node_modules
-npm-debug.log*
-package-lock.json
-codekit-config.json
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-
-# Jekyll generated files
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-
-# Jekyll site
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
+
+# Bundler
+.bundle/
+
+# Environment variables
+.env
+.env.local
+
+# Cloudinary credentials (不要提交包含 API Secret 的文件)
+cloudinary_config.js
+cloudinary_urls.json
+cloudinary_urls.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Node
+node_modules/
+package-lock.json
+
+# Claude Code local settings
+.claude/settings.local.json

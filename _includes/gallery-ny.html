@@ -1,0 +1,19 @@
+{% assign gallery = site.data.ny %}
+
+<div class="gallery-grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": true }'>
+  <div class="grid-sizer"></div>
+  {% for img in gallery %}
+    <div class="grid-item">
+      {% if img.url %}
+        <a href="{{ img.url }}"
+          {% if img.title %}title="{{ img.title }}"{% endif %}>
+            <img src="{{ img.image_path }}"
+                 alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        </a>
+      {% else %}
+        <img src="{{ img.image_path }}"
+             alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
