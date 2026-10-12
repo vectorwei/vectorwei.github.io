@@ -1,0 +1,31 @@
+{% comment %}
+  Justified photo grid. Rows keep a common height and photos keep their order.
+  Usage: {% include photo-gallery.html photos=site.data.colorado %}
+  Cloudinary photos get resized on the fly; local photos use their `thumb`.
+  Cloudinary videos show their first frame and link to an mp4.
+{% endcomment %}
+<div class="photo-grid">
+  {% for photo in include.photos %}
+    {% assign ratio = photo.width | times: 1.0 | divided_by: photo.height %}
+    {% assign is_video = false %}
+    {% if photo.image_path contains "res.cloudinary.com" %}
+      {% if photo.image_path contains "/video/upload/" %}
+        {% assign is_video = true %}
+        {% assign ext = photo.image_path | split: "." | last %}
+        {% assign base_len = photo.image_path | size | minus: ext.size | minus: 1 %}
+        {% assign base = photo.image_path | slice: 0, base_len %}
+        {% assign thumb = base | append: ".jpg" | replace: "/upload/", "/upload/so_0,w_800,c_limit,q_auto/" %}
+        {% assign full = base | append: ".mp4" | replace: "/upload/", "/upload/q_auto/" %}
+      {% else %}
+        {% assign thumb = photo.image_path | replace: "/upload/", "/upload/w_800,c_limit,f_auto,q_auto/" %}
+        {% assign full = photo.image_path | replace: "/upload/", "/upload/w_2400,c_limit,f_auto,q_auto/" %}
+      {% endif %}
+    {% else %}
+      {% assign thumb = photo.thumb | default: photo.image_path | relative_url %}
+      {% assign full = photo.image_path | relative_url %}
+    {% endif %}
+    <a href="{{ full }}"{% if is_video %} class="is-video" target="_blank" rel="noopener"{% endif %} style="--r: {{ ratio | round: 4 }}"{% if photo.alt %} title="{{ photo.alt }}"{% endif %}>
+      <img src="{{ thumb }}" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt }}" loading="lazy" decoding="async">
+    </a>
+  {% endfor %}
+</div>

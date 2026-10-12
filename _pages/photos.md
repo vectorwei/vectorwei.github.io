@@ -9,21 +9,21 @@ header:
 excerpt: "A collection of photographs from my adventures"
 
 feature_row:
-  - image_path: /assets/images/gallary/grad_photos/013.jpg
+  - image_path: /assets/images/gallary/grad_photos/thumbs/013.jpg
     alt: "SUSTech graduation photography"
     title: "SUSTech Graduation"
     excerpt: "Memories from my graduation at SUSTech-2024.6.24"
     url: "/photos/graduation/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
-  - image_path: assets/images/gallary/moutainhuang/019.jpg
+  - image_path: /assets/images/gallary/moutainhuang/thumbs/019.jpg
     alt: "Travel photography"
     title: "黄山"
     excerpt: "没有看到日出的黄山游记2025.7.19"
     url: "/photos/huangshan/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
-  - image_path: /assets/images/background.jpg
+  - image_path: https://res.cloudinary.com/dz9s4oflr/image/upload/w_800,c_fill,ar_4:3,f_auto,q_auto/v1769132297/IMG_5207_ogyg2e.jpg
     alt: "Colorado photography"
     title: "Colorado"
     excerpt: "Colorado adventures and landscapes"
@@ -44,7 +44,7 @@ feature_row:
     url: "#"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
-  - image_path: /assets/images/background.jpg
+  - image_path: https://res.cloudinary.com/dz9s4oflr/image/upload/w_800,c_fill,ar_4:3,f_auto,q_auto/v1769133997/IMG_4827_xfti6f.jpg
     alt: "NY photography"
     title: "NYC"
     excerpt: "NYC adventures"

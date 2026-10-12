@@ -1,0 +1,112 @@
+# Photos stored in this repo; thumbs/ holds the resized grid versions.
+# width/height are the thumbnail's display size, used to lay out the grid before images load.
+- image_path: /assets/images/gallary/grad_photos/01.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/01.jpg
+  width: 800
+  height: 474
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/02.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/02.jpg
+  width: 540
+  height: 360
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/03.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/03.jpg
+  width: 724
+  height: 1086
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/04.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/04.jpg
+  width: 540
+  height: 360
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/05.jpeg
+  thumb: /assets/images/gallary/grad_photos/thumbs/05.jpg
+  width: 360
+  height: 540
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/06.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/06.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/07.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/07.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/08.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/08.jpg
+  width: 800
+  height: 1200
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/09.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/09.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/010.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/010.jpg
+  width: 800
+  height: 1200
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/011.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/011.jpg
+  width: 800
+  height: 1200
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/012.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/012.jpg
+  width: 800
+  height: 1200
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/013.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/013.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/014.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/014.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/015.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/015.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/016.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/016.jpg
+  width: 800
+  height: 1121
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/017.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/017.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/018.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/018.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/019.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/019.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/020.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/020.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/021.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/021.jpg
+  width: 800
+  height: 1200
+  alt: "SUSTech Graduation"
+- image_path: /assets/images/gallary/grad_photos/022.jpg
+  thumb: /assets/images/gallary/grad_photos/thumbs/022.jpg
+  width: 800
+  height: 533
+  alt: "SUSTech Graduation"
