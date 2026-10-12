@@ -17,8 +17,7 @@ Off the clock I'm usually behind a camera, on a trail, on a badminton court, or 
 
 ### Latest writing
 
-<!-- BLOG-POST-LIST:START -->
-- [联想AI产品经理实习体验](https://vectorwei.github.io/blog/AIPM_experience/) <sub>Jul 2025</sub>
+<!-- BLOG-POST-LIST:START -->- [联想AI产品经理实习体验](https://vectorwei.github.io/blog/AIPM_experience/) <sub>Jul 2025</sub>
 - [Uchi ADS一年就读体验](https://vectorwei.github.io/blog/uchi-ads-experience/) <sub>Jun 2025</sub>
 - [我为什么突然想做AI产品经理](https://vectorwei.github.io/blog/whyPM/) <sub>Apr 2025</sub>
 - [My First Post at This Site](https://vectorwei.github.io/blog/first-post/) <sub>Mar 2025</sub>
