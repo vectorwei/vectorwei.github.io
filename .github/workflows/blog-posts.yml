@@ -15,8 +15,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://vectorwei.github.io/feed.xml"
+          feed_list: "https://gavixiong.github.io/feed.xml"
           max_post_count: 5
-          template: "- [$title]($url) <sub>$date</sub>$newline"
+          template: "$newline- [$title]($url) <sub>$date</sub>"
           date_format: "mmm yyyy"
           commit_message: "chore: update latest blog posts in README"
