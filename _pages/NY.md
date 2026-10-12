@@ -1,13 +1,7 @@
 ---
-layout: single
-title: NYC
+layout: album
+title: "New York"
+lede: "Winter in the city, from Central Park to the top of the Empire State."
+album: ny
 permalink: /photos/NY/
-author_profile: true
-header:
-  overlay_color: '#000'
-  overlay_filter: '0.5'
 ---
-
-{% include photo-gallery.html photos=site.data.ny %}
-
-[← Back to Photo Categories](/photos/)

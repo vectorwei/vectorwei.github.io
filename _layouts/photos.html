@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<main class="wrap">
+  <header class="page-head">
+    <p class="kicker"><span class="dot"></span>{{ site.data.albums.size }} albums</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="page-lede">{{ page.lede }}</p>{% endif %}
+  </header>
+
+  <div class="albums">
+    {% for a in site.data.albums %}
+    {% assign count = site.data[a.data] | size %}
+    <a class="album-card" href="{{ a.url | relative_url }}">
+      <div class="cover"><img src="{{ a.cover | relative_url }}" alt="{{ a.title }}" loading="lazy"></div>
+      <div class="album-info">
+        <h2>{{ a.title }}</h2>
+        <p>{{ a.subtitle }}</p>
+        <p class="album-meta">{{ count }} photos{% if a.when %} · {{ a.when }}{% endif %}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</main>

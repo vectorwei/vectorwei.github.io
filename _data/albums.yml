@@ -1,0 +1,26 @@
+# Albums shown on /photos/. `data` names the photo list in _data/ used for the count.
+- title: Colorado
+  subtitle: Mountains, red rocks, and Denver streets.
+  url: /photos/colorado/
+  data: colorado
+  cover: https://res.cloudinary.com/dz9s4oflr/image/upload/w_900,h_675,c_fill,f_auto,q_auto/v1769132297/IMG_5207_ogyg2e.jpg
+
+- title: New York
+  subtitle: Winter in the city, from Central Park to the top of the Empire State.
+  url: /photos/NY/
+  data: ny
+  cover: https://res.cloudinary.com/dz9s4oflr/image/upload/w_900,h_675,c_fill,f_auto,q_auto/v1769133997/IMG_4827_xfti6f.jpg
+
+- title: 黄山 Huangshan
+  subtitle: 没有看到日出的黄山游记
+  when: Jul 2025
+  url: /photos/huangshan/
+  data: huangshan
+  cover: /assets/images/gallary/moutainhuang/thumbs/019.jpg
+
+- title: SUSTech Graduation
+  subtitle: Memories from graduation day at SUSTech.
+  when: Jun 2024
+  url: /photos/graduation/
+  data: graduation
+  cover: /assets/images/gallary/grad_photos/thumbs/013.jpg

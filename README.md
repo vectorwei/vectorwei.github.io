@@ -43,7 +43,7 @@ Off the clock I'm usually behind a camera, on a trail, on a badminton court, or 
 
 <br>
 
-This is the source of [gavixiong.github.io](https://gavixiong.github.io), built with Jekyll. Theme files are vendored from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) (MIT, see `LICENSE`) and customized locally.
+This is the source of [gavixiong.github.io](https://gavixiong.github.io), built with Jekyll and a small hand-written theme: layouts in `_layouts/`, styles in `assets/css/site.css`, and homepage, album and photo data in `_data/`.
 
 ```bash
 bundle install

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Uchi ADS一年就读体验"
 date: 2025-06-02
 categories:

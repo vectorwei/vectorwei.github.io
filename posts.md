@@ -1,6 +1,6 @@
 ---
-title: Blog Posts
-layout: posts
+layout: blog
+title: Writing
+lede: Notes on school, work, and figuring things out — mostly in Chinese.
 permalink: /posts/
-author_profile: true
---- 
+---

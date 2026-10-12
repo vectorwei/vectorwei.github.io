@@ -1,0 +1,6 @@
+{% comment %}
+  Reading time for mixed Chinese/English posts. Jekyll 3 counts words by
+  spaces, which undercounts Chinese, so when a "word" averages more than
+  8 characters the text is CJK-heavy and is timed at ~400 characters/min.
+  English is timed at ~220 words/min. Both round to the nearest minute.
+{% endcomment %}{% assign rt_text = include.content | strip_html | strip_newlines %}{% assign rt_words = rt_text | number_of_words %}{% assign rt_chars = rt_text | size %}{% assign rt_min = rt_chars | plus: 200 | divided_by: 400 %}{% if rt_words > 0 %}{% assign rt_ratio = rt_chars | divided_by: rt_words %}{% if rt_ratio <= 8 %}{% assign rt_min = rt_words | plus: 110 | divided_by: 220 %}{% endif %}{% endif %}{% if rt_min < 1 %}{% assign rt_min = 1 %}{% endif %}{{ rt_min }} min read

@@ -1,10 +1,7 @@
 ---
-layout: single
-title: 黄山游记
+layout: album
+title: "黄山 Huangshan"
+lede: "没有看到日出的黄山游记 · 2025.7.19"
+album: huangshan
 permalink: /photos/huangshan/
-author_profile: true
 ---
-
-{% include photo-gallery.html photos=site.data.huangshan %}
-
-[← Back to Photo Categories](/photos/)

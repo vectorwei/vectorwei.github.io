@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "联想AI产品经理实习体验"
 date: 2025-07-01
 categories:

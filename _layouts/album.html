@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign photos = site.data[page.album] %}
+<main class="wrap">
+  <a class="back" href="{{ '/photos/' | relative_url }}">← All albums</a>
+  <header class="page-head">
+    <p class="kicker"><span class="dot"></span>{{ photos | size }} photos</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="page-lede">{{ page.lede }}</p>{% endif %}
+  </header>
+
+  {% include photo-gallery.html photos=photos %}
+</main>
+
+<script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>

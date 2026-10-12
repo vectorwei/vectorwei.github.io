@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "My First Post at This Site"
 date: 2025-03-13
 categories:
