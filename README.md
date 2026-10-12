@@ -22,8 +22,7 @@ Off the clock I'm usually behind a camera, on a trail, on a badminton court, or 
 - [Uchi ADS一年就读体验](https://gavixiong.github.io/blog/uchi-ads-experience/) <sub>Jun 2025</sub>
 - [我为什么突然想做AI产品经理](https://gavixiong.github.io/blog/whyPM/) <sub>Apr 2025</sub>
 - [My First Post at This Site](https://gavixiong.github.io/blog/first-post/) <sub>Mar 2025</sub>
-- [Berkeley往事（下）](https://gavixiong.github.io/blog/berkeley2/) <sub>Dec 2023</sub>
-<!-- BLOG-POST-LIST:END -->
+- [Berkeley往事（下）](https://gavixiong.github.io/blog/berkeley2/) <sub>Dec 2023</sub><!-- BLOG-POST-LIST:END -->
 
 <sub>Mostly in Chinese. This list updates itself from the blog's feed.</sub>
 
