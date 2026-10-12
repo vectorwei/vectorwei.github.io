@@ -1,0 +1,94 @@
+# Content for the homepage (_layouts/home.html)
+
+roles: ["<AI Engineer />", "Daydreamer", "Photographer"]
+motto: Daydreamer by type, Aquarius by birth, shark by spirit.
+intro: I build production AI agents and RAG systems — self-hosted, cited, and actually used.
+
+# Sticker tags; colors cycle through the palette in CSS
+tags:
+  - { icon: "🤖", label: AI agents }
+  - { icon: "📷", label: photography }
+  - { icon: "🏸", label: badminton }
+  - { icon: "🎾", label: tennis }
+  - { icon: "🥾", label: hiking }
+  - { icon: "🏋️", label: gym }
+  - { icon: "🌱", label: INFP, url: "https://www.16personalities.com/infp-personality" }
+  - { icon: "♒", label: Aquarius }
+
+stack: [python, typescript, vllm, langgraph, mcp, rag, fastapi, next.js, docker]
+
+profile:
+  - { key: name, value: Jiawei Xiong }
+  - { key: type, value: INFP }
+  - { key: sign, value: Aquarius }
+  - { key: based_in, value: "San Jose, CA" }
+  - { key: mascot, value: sharkbear }
+  - { key: shipping, value: AI agents }
+  - { key: learning, value: "AI infra & inference" }
+
+lately:
+  - { icon: "🏸", label: Badminton }
+  - { icon: "🎾", label: Tennis }
+  - { icon: "🥾", label: Hiking }
+  - { icon: "🏋️", label: Gym }
+
+experience:
+  - company: Monolithic Power Systems
+    logo: /assets/images/logos/mps.jpeg
+    role: AI Engineer
+    place: San Jose, CA
+    dates: Feb 2026 – Present
+    current: true
+    summary: Four production AI products for 200+ engineers, all on self-hosted models with no data leaving the network.
+    products:
+      - name: AI Legal Agent
+        what: Self-service NDA workflow plus an agentic search chat across contracts.
+        stack: [TypeScript, Next.js, vLLM]
+      - name: Network Assistant
+        what: Troubleshoot network switches in plain English through an MCP server.
+        stack: [Python, MCP, TimescaleDB]
+      - name: Automotive Agent
+        what: Hybrid-retrieval RAG over 130K+ engineering files with cited answers.
+        stack: [LangGraph, BM25, React]
+      - name: AI Tools
+        what: Datasheet and EDA-manual QA that answers from the actual table row.
+        stack: [Docling, DuckDB, Qdrant]
+
+  - company: Lenovo
+    logo: /assets/images/logos/lenovo.jpeg
+    role: AI Product Manager Intern
+    place: Beijing, China
+    dates: May 2025 – Aug 2025
+    summary: Shipped OCR rebate review to 500+ stores, a demand-forecasting prototype, and an NL-to-SQL inventory assistant.
+
+  - company: Essence Fund Management
+    logo: /assets/images/logos/essence.jpg
+    role: Data Analyst Intern
+    place: Shenzhen, China
+    dates: Apr 2024 – Jun 2024
+    summary: Automated the daily fund data pipeline and segmented investor profiles with K-means.
+
+education:
+  - school: The University of Chicago
+    logo: /assets/images/logos/uchicago.jpeg
+    degree: M.S. Applied Data Science
+    dates: 2024 – 2025
+  - school: Southern University of Science and Technology
+    logo: /assets/images/logos/sustech.jpeg
+    degree: B.S. Data Science
+    dates: 2020 – 2024
+  - school: UC Berkeley
+    badge: UCB
+    degree: Exchange · BISP
+    dates: Fall 2023
+
+lens:
+  - title: Garden of the Gods
+    coords: 38.88°N 104.88°W
+    image: https://res.cloudinary.com/dz9s4oflr/image/upload/w_600,h_600,c_fill,g_north,f_auto,q_auto/v1769132279/IMG_5238_zrrd0x.jpg
+  - title: Manhattan
+    coords: 40.75°N 73.99°W
+    image: https://res.cloudinary.com/dz9s4oflr/image/upload/w_600,h_600,c_fill,f_auto,q_auto/v1769133997/IMG_4827_xfti6f.jpg
+  - title: Huangshan
+    coords: 30.13°N 118.17°E
+    image: /assets/images/gallary/moutainhuang/thumbs/023.jpg

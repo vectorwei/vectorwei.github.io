@@ -12,7 +12,7 @@ Off the clock I'm usually behind a camera, on a trail, on a badminton court, or 
   <a href="https://gavixiong.github.io/posts/"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme/btn-blog-dark.svg"><img src=".github/readme/btn-blog-light.svg" alt="Blog" height="36"></picture></a>
   <a href="https://gavixiong.github.io/cv.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme/btn-cv-dark.svg"><img src=".github/readme/btn-cv-light.svg" alt="CV" height="36"></picture></a>
   <a href="https://www.linkedin.com/in/jiawei-xiong-407a08314"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme/btn-linkedin-dark.svg"><img src=".github/readme/btn-linkedin-light.svg" alt="LinkedIn" height="36"></picture></a>
-  <a href="mailto:jiaweix1@uchicago.edu"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme/btn-email-dark.svg"><img src=".github/readme/btn-email-light.svg" alt="Email" height="36"></picture></a>
+  <a href="mailto:jiaweibear02@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme/btn-email-dark.svg"><img src=".github/readme/btn-email-light.svg" alt="Email" height="36"></picture></a>
 </p>
 
 ### Latest writing
