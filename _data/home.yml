@@ -1,19 +1,18 @@
 # Content for the homepage (_layouts/home.html)
 
-roles: ["<AI Engineer />", "Daydreamer", "Photographer"]
-motto: Daydreamer by type, Aquarius by birth, shark by spirit.
-intro: I build production AI agents and RAG systems — self-hosted, cited, and actually used.
+roles: ["AI Engineer", "Data Scientist", "Daydreamer", "Explorer"]
+# Markdown; rendered inline in the intro card
+intro: >-
+  I'm an AI engineer at [MPS](https://www.monolithicpower.com/en/about-mps.html), building AI agents and
+  RAG systems that engineers actually use. Data science has been my compass all the way
+  from the Yangtze to the Bay:
 
-# Sticker tags; colors cycle through the palette in CSS
-tags:
-  - { icon: "🤖", label: AI agents }
-  - { icon: "📷", label: photography }
-  - { icon: "🏸", label: badminton }
-  - { icon: "🎾", label: tennis }
-  - { icon: "🥾", label: hiking }
-  - { icon: "🏋️", label: gym }
-  - { icon: "🌱", label: INFP, url: "https://www.16personalities.com/infp-personality" }
-  - { icon: "♒", label: Aquarius }
+# The journey line under the intro
+route:
+  - { place: Jiujiang, note: hometown · Jiangxi }
+  - { place: Shenzhen, note: SUSTech · B.S. }
+  - { place: Chicago, note: UChicago · M.S. }
+  - { place: San Jose, note: MPS · now }
 
 stack: [python, typescript, vllm, langgraph, mcp, rag, fastapi, next.js, docker]
 
@@ -22,15 +21,17 @@ profile:
   - { key: type, value: INFP }
   - { key: sign, value: Aquarius }
   - { key: based_in, value: "San Jose, CA" }
-  - { key: mascot, value: sharkbear }
+  - { key: mascot, value: fatfat shark }
   - { key: shipping, value: AI agents }
   - { key: learning, value: "AI infra & inference" }
 
-lately:
-  - { icon: "🏸", label: Badminton }
-  - { icon: "🎾", label: Tennis }
-  - { icon: "🥾", label: Hiking }
-  - { icon: "🏋️", label: Gym }
+# "Off the clock" stickers; colors cycle through the palette in CSS
+off_clock:
+  - { icon: "🏸", label: badminton }
+  - { icon: "🎾", label: tennis }
+  - { icon: "🥾", label: hiking }
+  - { icon: "🏋️", label: gym }
+  - { icon: "📷", label: photography }
 
 experience:
   - company: Monolithic Power Systems

@@ -6,16 +6,15 @@ layout: default
 
   <!-- Intro -->
   <section class="card c-intro">
-    <p class="kicker"><span class="pulse"></span>AI Engineer @ Monolithic Power Systems</p>
+    <p class="kicker"><span class="pulse"></span><span class="clock">San Jose, CA</span></p>
     <h1>Hi, I'm Jiawei.</h1>
     <p class="typing" aria-label="{{ h.roles | join: ', ' | escape }}"><span class="typed">{{ h.roles | first | escape }}</span><span class="cursor"></span></p>
-    <p class="motto">{{ h.motto }}</p>
-    <p class="lede">{{ h.intro }}</p>
-    <ul class="stickers">
-      {% for t in h.tags %}
-      <li>{% if t.url %}<a href="{{ t.url }}" target="_blank" rel="noopener">{% else %}<span>{% endif %}<i aria-hidden="true">{{ t.icon }}</i>{{ t.label }}{% if t.url %}</a>{% else %}</span>{% endif %}</li>
+    <p class="lede">{{ h.intro | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    <ol class="route">
+      {% for r in h.route %}
+      <li{% if forloop.last %} class="here"{% endif %}><b>{{ r.place }}</b><small>{{ r.note }}</small></li>
       {% endfor %}
-    </ul>
+    </ol>
     <div class="cta">
       <a class="btn primary" href="{{ '/cv.pdf' | relative_url }}">
         <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg><span class="long">Download </span>CV
@@ -28,7 +27,7 @@ layout: default
 
   <!-- Terminal + mascot -->
   <section class="c-term">
-    <img class="mascot" src="{{ '/assets/images/bio-photo.jpg' | relative_url }}" alt="Sharkbear, Jiawei's mascot">
+    <img class="mascot" src="{{ '/assets/images/bio-photo.jpg' | relative_url }}" alt="Fatfat Shark, Jiawei's mascot">
     <div class="term">
       <div class="term-bar"><i></i><i></i><i></i><span>~/jiawei — zsh</span></div>
       <pre class="term-body"><span class="p">$</span> whoami
@@ -39,7 +38,7 @@ learning AI infra &amp; inference</span>
 <span class="p">$</span> ls stack/
 <span class="o stack">{% for s in h.stack %}<b>{{ s }}</b>{% endfor %}</span>
 <span class="p">$</span> echo $MASCOT
-<span class="o">🦈 sharkbear says hi</span>
+<span class="o">🦈 fatfat shark says hi</span>
 <span class="p">$</span> <span class="caret"></span></pre>
     </div>
   </section>
@@ -65,12 +64,12 @@ learning AI infra &amp; inference</span>
 {% endfor %}<span class="b">}</span></pre>
   </section>
 
-  <!-- Lately -->
+  <!-- Off the clock -->
   <section class="card c-lately">
-    <h2>Lately, off the clock</h2>
-    <ul class="lately">
-      {% for l in h.lately %}
-      <li><i aria-hidden="true">{{ l.icon }}</i><span>{{ l.label }}</span></li>
+    <h2>Off the clock</h2>
+    <ul class="stickers">
+      {% for t in h.off_clock %}
+      <li><span><i aria-hidden="true">{{ t.icon }}</i>{{ t.label }}</span></li>
       {% endfor %}
     </ul>
   </section>
@@ -131,6 +130,16 @@ learning AI infra &amp; inference</span>
 </main>
 
 <script>
+  // Local time in San Jose for the kicker
+  (function () {
+    var el = document.querySelector('.clock');
+    if (!el || !window.Intl) return;
+    var fmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: 'numeric', minute: '2-digit' });
+    function tick() { el.textContent = "It's " + fmt.format(new Date()) + ' in San Jose'; }
+    tick();
+    setInterval(tick, 30000);
+  })();
+
   // Typing roles
   (function () {
     var roles = {{ h.roles | jsonify }};

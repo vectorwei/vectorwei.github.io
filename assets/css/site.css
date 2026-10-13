@@ -1,5 +1,5 @@
 /* Site styles — shared tokens and components, then homepage, blog and photos.
-   Palette taken from the sharkbear mascot: shark blue for primary,
+   Palette taken from the Fatfat Shark mascot: shark blue for primary,
    cheek pink as the single warm accent. */
 
 :root {
@@ -166,7 +166,8 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 .c-writing { grid-column: span 6; }
 
 /* ---------- Intro ---------- */
-.c-intro { padding: 36px; }
+.c-intro { display: flex; flex-direction: column; justify-content: center; padding: 40px 36px; }
+.c-intro .kicker { align-self: flex-start; }
 
 .kicker {
   display: inline-flex; align-items: center; gap: 10px;
@@ -192,21 +193,31 @@ h1 { font-size: clamp(38px, 5vw, 56px); line-height: 1.05; letter-spacing: -0.03
 .cursor { display: inline-block; width: 3px; height: .95em; margin-left: 4px; vertical-align: -0.1em; background: var(--pink); animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 
-.motto { margin-top: 18px; color: var(--ink); font: italic 26px/1.25 var(--serif); }
-.lede { max-width: 520px; margin-top: 8px; color: var(--muted); font-size: 16px; }
+.lede { max-width: 540px; margin: 22px 0 30px; color: var(--muted); font-size: 18px; line-height: 1.65; }
+.lede a { color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--blue-soft); text-decoration-thickness: 2px; text-underline-offset: 4px; transition: color .2s, text-decoration-color .2s; }
+.lede a:hover { color: var(--blue); text-decoration-color: var(--blue); }
+
+/* Journey line: hometown → school → school → now */
+.route { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); margin: -6px 0 30px; padding: 0; list-style: none; }
+.route::before { content: ""; position: absolute; left: 6px; right: 12%; top: 6px; border-top: 2px dashed var(--line); }
+.route li { position: relative; padding-top: 22px; }
+.route li::before { content: ""; position: absolute; left: 0; top: 0; width: 14px; height: 14px; border: 2px solid var(--blue-soft); border-radius: 50%; background: var(--surface); }
+.route li.here::before { border-color: var(--pink); background: var(--pink); box-shadow: 0 0 0 5px color-mix(in srgb, var(--pink) 22%, transparent); }
+.route b { display: block; font-size: 14px; font-weight: 600; }
+.route small { color: var(--faint); font: 11px var(--mono); }
 
 /* Stickers */
-.stickers { display: flex; flex-wrap: wrap; gap: 10px 8px; margin: 22px 0 26px; }
+.stickers { display: flex; flex-wrap: wrap; align-content: center; gap: 14px 10px; }
 .stickers li > * {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 5px 12px 5px 9px;
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 16px 8px 12px;
   border-radius: 999px;
   outline: 1px solid color-mix(in srgb, currentColor 18%, transparent);
   box-shadow: 0 0 0 2px var(--surface), 0 2px 6px rgba(14, 22, 38, 0.08);
-  font-size: 13.5px; font-weight: 600;
+  font-size: 15px; font-weight: 600;
   transition: transform .25s cubic-bezier(.3, 1.6, .5, 1);
 }
-.stickers li > * i { font-style: normal; font-size: 15px; }
+.stickers li > * i { font-style: normal; font-size: 18px; }
 .stickers li:nth-child(6n+1) > * { background: var(--s1); color: var(--s1t); transform: rotate(-3deg); }
 .stickers li:nth-child(6n+2) > * { background: var(--s2); color: var(--s2t); transform: rotate(2deg); }
 .stickers li:nth-child(6n+3) > * { background: var(--s3); color: var(--s3t); transform: rotate(-1.5deg); }
@@ -214,7 +225,6 @@ h1 { font-size: clamp(38px, 5vw, 56px); line-height: 1.05; letter-spacing: -0.03
 .stickers li:nth-child(6n+5) > * { background: var(--s5); color: var(--s5t); transform: rotate(-2deg); }
 .stickers li:nth-child(6n+6) > * { background: var(--s6); color: var(--s6t); transform: rotate(1.5deg); }
 .stickers li > *:hover { transform: rotate(0) translateY(-3px) scale(1.06); }
-.stickers a::after { content: "↗"; margin-left: 2px; font-size: 11px; opacity: .6; }
 
 .cta { display: flex; flex-wrap: wrap; gap: 10px; }
 .btn {
@@ -297,18 +307,9 @@ h1 { font-size: clamp(38px, 5vw, 56px); line-height: 1.05; letter-spacing: -0.03
 .json .k { color: var(--blue); }
 .json .v { color: var(--ink); }
 
-/* ---------- Lately ---------- */
-.lately { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-.lately li {
-  display: flex; flex-direction: column; align-items: flex-start; gap: 10px;
-  padding: 16px;
-  border-radius: 16px;
-  background: var(--surface-2);
-  font-weight: 600; font-size: 14px;
-  transition: transform .25s cubic-bezier(.3, 1.6, .5, 1);
-}
-.lately li i { font-style: normal; font-size: 26px; line-height: 1; }
-.lately li:hover { transform: translateY(-3px) rotate(-2deg); }
+/* ---------- Off the clock ---------- */
+.c-lately { display: flex; flex-direction: column; }
+.c-lately .stickers { flex: 1; }
 
 /* ---------- Experience ---------- */
 .logo {
@@ -376,6 +377,8 @@ h1 { font-size: clamp(38px, 5vw, 56px); line-height: 1.05; letter-spacing: -0.03
   .card, .c-intro { padding: 22px; }
   .c-term { padding-top: 92px; min-height: 0; }
   .mascot { width: 140px; height: 140px; right: 20px; }
+  .route { grid-template-columns: repeat(2, 1fr); row-gap: 16px; }
+  .route::before { display: none; }
   .job-head { flex-wrap: wrap; }
   .dates { width: 100%; margin-left: 58px; }
   .job-summary, .products { margin-left: 0; }
